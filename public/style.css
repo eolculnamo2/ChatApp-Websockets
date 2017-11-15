@@ -23,6 +23,7 @@ h3{
   height: 400px;
   width: 400px;
   margin-left: 2%;
+  overflow-y: hidden;
 }
 #name{
   width: 75%;
