@@ -1,8 +1,18 @@
 body{
-  background-color: #abbbd6;
+  background-color: #777b82;
 }
 h1{
   margin-left: 2%;
+  color: white;
+}
+button{
+  padding: 5px;
+  background-color: #ffac47;
+  border: 0px;
+  width: 50px;
+}
+h3{
+  color: white;
 }
 #box{
   border: 2px solid black;
@@ -12,11 +22,14 @@ h1{
 #messageScreen{
   height: 400px;
   width: 400px;
+  margin-left: 2%;
 }
 #name{
   width: 75%;
 }
 #message{
+  padding: 5px;
+  border: 1px solid black;
   width: 75%
 }
 #usersOnline{
