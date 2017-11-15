@@ -20,7 +20,7 @@ var io = socket(server)
 var usersOn = [];
 var socks = [];
 io.on('connection', function(socket) {
-    // usersOn=[]
+  // usersOn=[]
       socket.on('log', function(data){
        // db.userOn(data, function(users){
         socks.push(socket)

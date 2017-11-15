@@ -6,6 +6,7 @@ var btn = document.getElementById("send"),
     isTyping = document.getElementById("isTyping"),
     screen = document.getElementById("messageScreen")
 
+
 //responsive styling
 if(window.innerWidth < 1000){
   $("#messageScreen").css({"height": "300px", 
@@ -52,6 +53,7 @@ socket.on('chat', function(data){
   }
   isTyping.innerHTML = "";
   screen.innerHTML += "<p><strong>"+data.user+": </strong>"+data.message+"</p>";
+  screen.scrollTop = screen.scrollHeight;
 })
 
 
