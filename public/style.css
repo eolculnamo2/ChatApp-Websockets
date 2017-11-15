@@ -1,0 +1,27 @@
+body{
+  background-color: #abbbd6;
+}
+h1{
+  margin-left: 2%;
+}
+#box{
+  border: 2px solid black;
+  width: 525px;
+  background-color: white;
+}
+#messageScreen{
+  height: 400px;
+  width: 400px;
+}
+#name{
+  width: 75%;
+}
+#message{
+  width: 75%
+}
+#usersOnline{
+  border: 2px solid black;
+  height: 300px;
+  width: 200px;
+  background-color: white;
+}

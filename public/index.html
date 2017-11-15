@@ -1,0 +1,62 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chat</title>
+    <meta name="description" content="Chatroom made with socket.io">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+  <h1>
+      Chatroom
+    </h1>
+    <center>
+      <div class = "rows">
+        <div class = "col-md-8">
+          
+    
+    <div id = "box">
+      <div id = "messageScreen">
+      </div>
+      <div id = "isTyping">
+      </div>
+      <!--Your Name
+                <input id = "name"/>-->
+      Message
+          <input id = "message">
+          <button id = "send">
+            Send
+        </button>
+    </div>
+      </div>
+              <div class = "col-md-4">
+                <h3>
+                  Users Online
+                </h3>
+          <div id = "usersOnline">
+                </div>
+        </div>
+      </div>
+</center>
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+
+  </body>
+</html>
