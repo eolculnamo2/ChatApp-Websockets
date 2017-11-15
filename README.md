@@ -1,27 +1,7 @@
-Welcome to the Glitch BETA
-=========================
+A chat app I created to learn sockets.io.
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+It is not responsive and I put virtually no work towards styling.
 
-**Glitch** is the friendly commmunity where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+I used the net ninja youtube tutorials in learning to code this project.
 
-Find out more [about Glitch](https://glitch.com/about).
-
-
-Your Project
-------------
-
-On the front-end,
-- edit `public/client.js`, `public/style.css` and `views/index.html`
-- drag in `assets`, like images or music, to add them to your project
-
-On the back-end,
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
-
-
-Made by [Fog Creek](https://fogcreek.com/)
--------------------
-
-\ ゜o゜)ノ
+https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg
